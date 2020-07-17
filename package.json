@@ -1,5 +1,5 @@
 {
-  "name": "GoStack-9.0-GoBarder",
+  "name": "go-stack-9.0-go-barber",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/joilsonLeal/GoStack-9.0-GoBarder.git",
@@ -13,6 +13,9 @@
     "devDebug": "nodemon --inspect src/server.js"
   },
   "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
     "nodemon": "^2.0.4",
     "sucrase": "^3.15.0"
   }
