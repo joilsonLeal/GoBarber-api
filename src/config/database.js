@@ -4,7 +4,7 @@ module.exports = {
     username: '',
     password: '',
     database: 'gobarber',
-    storage: './database/gobarber.sqlite',
+    storage: 'gobarber.sqlite',
     define: {
         underscored: true,
         timestamp: true,
