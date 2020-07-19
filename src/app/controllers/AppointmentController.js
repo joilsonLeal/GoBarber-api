@@ -127,6 +127,11 @@ class AppointmentController {
             ],
         });
 
+        if(appointment.canceled_at)
+            return res
+                .status(401)
+                .json({ error: `Appointment already canceled.`});
+
         if(appointment.user_id !== req.userId)
             return res
                 .status(401)
