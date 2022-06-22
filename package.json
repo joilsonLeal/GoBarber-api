@@ -20,7 +20,7 @@
     "nodemailer": "^6.4.10",
     "nodemailer-express-handlebars": "^4.0.0",
     "sequelize": "^6.3.3",
-    "sqlite3": "^5.0.0",
+    "sqlite3": "^5.0.3",
     "youch": "^2.0.10",
     "yup": "^0.29.1"
   },
